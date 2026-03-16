@@ -8,7 +8,7 @@ Code also provides an inverse permutation helper function invPerm'''
 import numpy as np # import linera algebra library
 from numpy.fft import fft,ifft
 import math # you also need to import basic math because python is silly
-from collections.abc import Sequence, ABCMeta
+from typing import Sequence, ABCMeta
 import typing
 
 # pretty sure this is wrong and needs to be fixed but I'm very tired
