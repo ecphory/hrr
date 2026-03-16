@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
         name='hrr',
-        version='0.0.3',
+        version='0.0.4',
         description='Defines a class/object for Holographic Reduced Representations',
         author='Mary Kelly',
         author_email='marykelly4@carleton.ca',

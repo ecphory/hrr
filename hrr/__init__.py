@@ -1,1 +1,1 @@
-from hrr import HRR, HRRArray
+from .hrr import *
