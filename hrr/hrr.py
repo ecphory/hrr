@@ -128,6 +128,9 @@ class HRR[d:int](Sequence, metaclass=HRRMeta):
         if isinstance(other, HRRArray):
             return other == self
 
+        if not isinstance(other, HRR):
+            other=HRR(data=other)
+            
         scale = self.scale * other.scale # scaling for normalization
         if scale==0:
             return 0
